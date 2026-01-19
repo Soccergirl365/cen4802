@@ -1,9 +1,14 @@
-// Isabella Mazza
-// Date: 1/18/2026
+/* @author Isabella Mazza
+	*/
 
 package Assignment_1;
 
 public class Assignment_1 {
+/** Class to calculate the nth term of the Fibonacci sequence recursively
+  	*
+	* @param n The position of the term being calculated
+	* @return The nth term in the Fibonacci sequence
+	*/
 	
 	public static int calculateFibonacci(int n) {
 		if (n <= 1) {
